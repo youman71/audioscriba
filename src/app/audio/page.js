@@ -7,7 +7,7 @@ import { useState, useEffect, useRef } from "react";
 import Image from "next/image";
 import { TextField, Button, CircularProgress, Typography, Box, Grid, Radio, RadioGroup, FormControlLabel, FormControl, FormLabel } from "@mui/material";
 
-const voices = ["Michael", "George", "Lewis", "Bella", "Emma", "Nicole", "Sarah", "Isabella", "Sky", "Adam"];
+const voices = ["michael", "george", "lewis", "bella", "emma", "nicole", "sarah", "isabella", "sky", "adam"];
 const formats = ["mp3", "opus", "aac", "flac", "pcm", "wav"];
 const tinos = Dancing_Script({ subsets: ['latin'], weight: '700' });
 export default function Home() {
