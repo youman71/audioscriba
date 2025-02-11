@@ -106,8 +106,8 @@ export default function Home() {
             <Image
               src={`/avatars-voice/${voice}.jpg`}
               alt={voice}
-              width={70}
-              height={70}
+              width={60}
+              height={60}
               style={{
                 borderRadius: "50%",
                 border: selectedVoice === voice ? "3px solid #009688" : "none",
