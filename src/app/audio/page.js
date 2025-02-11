@@ -108,7 +108,6 @@ export default function Home() {
               alt={voice}
               width={70}
               height={70}
-              unoptimized
               style={{
                 borderRadius: "50%",
                 border: selectedVoice === voice ? "3px solid #009688" : "none",
